@@ -1,0 +1,68 @@
+body {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.subjectTable {
+  width: 100%;
+  border-collapse: collapse;
+  margin-bottom: 20px;
+  cursor: pointer;
+}
+
+.subjectTable thead tr {
+  background-color: #2c3e50;
+  color: white;
+}
+
+.subjectTable th,
+.subjectTable td {
+  padding: 10px;
+  text-align: left;
+  border: 1px solid #ddd;
+  text-align: center;
+}
+
+.subjectTable tbody tr:nth-child(even) {
+  background-color: #f2f2f2;
+}
+
+.subjectTable tbody tr:hover {
+  background-color: #dff9fb;
+}
+
+.addBtn {
+  height: 2.5rem;
+  width: 20rem;
+  border-radius: 0.5rem;
+  border: 1px solid #2c3e50;
+  /* background-color: #2c3e50; */
+  background-color: #3498db;
+  color: white;
+  cursor: pointer;
+}
+
+.addBtn:hover {
+  background-color: #2e89c6;
+  box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.3);
+}
+
+.markBtn {
+  height: 2rem;
+  width: 6rem;
+  color: white;
+  background-color: #3498db;
+  border: 1px solid #3498db;
+  border-radius: 0.5rem;
+}
+
+.markBtn:hover {
+  cursor: pointer;
+  background-color: #2e89c6;
+  box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.3);
+}
+
+.totalMarkSection {
+  font-weight: 700;
+}
